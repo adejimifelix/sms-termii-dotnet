@@ -1,0 +1,24 @@
+{
+
+
+  "TermiiAPIKey": "<See your Termii dashboard>",
+  "TermiiSecretKey": "<See your Termii dashboard>",
+  "TermiiSenderID": "Your SenderID",
+  "TermiiCompanyname": "Your CompanyName",
+  "TermiiMobileNumber": "2348099221401",
+  "TermiiEmail": "adejimi.felix@gmail.com",
+
+  "TermiiBaseUrl": "https://api.ng.termii.com/api/",
+
+  "TermiiEndpoint": {
+    "SendSingleSms": "sms/send",
+    "SendBulkSms": "sms/bulk",
+    "FetchSenderID": "sender-id?api_key={0}",
+    "RequestNewSenderID": "sender-id/request",
+    "GetAccountBalance": "get-balance?api_key={0}",
+    "CheckDndStatus": "check/dnd?api_key={0}&phone_number={1}",
+    "VerifyPhoneNumberStatus": "insight/number/query?phone_number={0}&api_key={1}&country_code={2}"
+
+  }
+
+}
