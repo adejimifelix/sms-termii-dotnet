@@ -4,11 +4,22 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>SMS-Termii-Dotnet</Title>
+    <Copyright>Felix Adejimi</Copyright>
+    <Description>Cross-platform .NET C# Library for sending SMS and Whatsapp via mobile, web apps, or desktop apps through Termii SMS provider</Description>
+    <PackageProjectUrl>https://github.com/adejimifelix/sms-termii-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/adejimifelix/sms-termii-dotnet.git</RepositoryUrl>
+    <SignAssembly>False</SignAssembly>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Update="feca.sms.termii.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
 
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
