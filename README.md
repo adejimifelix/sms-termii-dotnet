@@ -10,8 +10,10 @@ To sign up on their platform, go to https://accounts.termii.com/#/register
 
 To use this library, the following information has to be entered into the json file named feca.sms.termii.json
 
+`
   "TermiiAPIKey": "<See your Termii dashboard>",
   "TermiiSecretKey": "<See your Termii dashboard>",
   "TermiiSenderID": "Your SenderID",
   "TermiiCompanyname": "Your CompanyName",
+  `
   
