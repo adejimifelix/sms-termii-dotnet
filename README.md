@@ -17,4 +17,25 @@ To use this library, the following information has to be entered into the json f
  4. "TermiiCompanyname": "Your CompanyName"
  
  ```
-  
+ 
+ # How to use 
+
+ In startup class, add the service to DI container like so:
+
+ ```
+    services.AddTransient<ITermiiSmsService, TermiiSmsService>();
+
+ ```
+
+ Then inject the service through controller constructor.
+
+ To invoke the Send-Single-SMS method, do something like this:
+
+ ```
+ var sendSmsResponse = await termiiService.SendSingleSMSAsync(request: new TermiiSendSingleSmsRequest() { To = "2348099221401", Sms = "Hello Felix Adejimi!" });
+
+
+ ```
+
+
+
